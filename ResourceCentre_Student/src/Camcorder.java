@@ -6,15 +6,14 @@ public class Camcorder extends Item{
 		super(assetTag, description);
 		this.opticalZoom = opticalZoom;
 	}
-
 	public int getOpticalZoom() {
 		return opticalZoom;
 	}
 	
 	public String toString(){
-		String output = "";
 		// Write your codes here
-		return output;
+		String output = super.toString();
+		return String.format("%-63s %-20d", output, getOpticalZoom());
 	}
 }
 
