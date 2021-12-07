@@ -55,7 +55,7 @@ public class ResourceCentreTest {
 	
 	@Test
 	public void testAddChromebook() {
-		//Shawn and Andi is here; Desmond also here
+		//Shawn and Andi is here; Desmond also here. HAHAHAHA
 		//fail("Not yet implemented");
 		// write your code here
 		// Item list is not null, so that can add a new item
